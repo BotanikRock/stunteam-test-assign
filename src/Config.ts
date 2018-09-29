@@ -3,7 +3,7 @@ import * as path from "path";
 
 export default class Config {
     public static getConfig() {
-        return JSON.parse(fs.readFileSync(path.join(__dirname, "./config.json")).toString());
+        return JSON.parse(fs.readFileSync(path.join(__dirname, "../config.json")).toString());
     }
 
     public static getConfigItem(key: string) {
