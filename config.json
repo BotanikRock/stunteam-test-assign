@@ -1,0 +1,5 @@
+{
+    "targetUrl": "https://browserleaks.com/",
+    "proxifierName": "HttpsProxifier",
+    "port": 80
+}
